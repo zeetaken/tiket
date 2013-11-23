@@ -5,7 +5,11 @@
  */
 class Home extends CI_Controller {
 	
-	function __construct() {
-		
-	}
+	
+    function index()
+    {
+        $this->load->view("public/template/template");
+    }
+    
+    
 }

@@ -1,0 +1,63 @@
+.warna-biru {
+    text-shadow: 0 -1px 0 rgba(0,0,0,.15);
+    background-color: #31B0D5;
+    border-color: #3278B3;
+    box-shadow: 0 1px 0 rgba(255,255,255,.1);
+}
+.warna-biru a {
+    color: #F9F2F4
+}
+.navbar .warna-abu {
+    text-shadow: 0 -1px 0 rgba(0,0,0,.15);
+    background-color: #8C9397;
+    border-color: #282828;
+    box-shadow: 0 1px 0 rgba(255,255,255,.1);
+}
+.menu-main {
+    background-color: #1BA1E2;
+    padding: 15px 0;
+    border-bottom: 1px solid #fff;
+}
+.menu-main li a {
+    color: #fff;
+}
+.body-content {
+    background-color: linear-gradient(#ffffff, #f0f0f1);
+    border-width: 1.0 1.0 1.0 1.0;
+    border-color: #b4b4b4 white #b4b4b4 white;
+    background-image: -webkit-gradient(linear, 0 top, 100% top, from(rgba(0, 0, 0, 0.0001)), to(rgba(0, 0, 0, 0.05)));
+    background-image: -webkit-linear-gradient(bottom, color-stop(rgba(0, 0, 0, 0.0001) 0), color-stop(rgba(0, 0, 0, 0.05) 100%));
+    background-image: -moz-linear-gradient(bottom, rgba(0, 0, 0, 0.0001) 0, rgba(0, 0, 0, 0.05) 100%);
+    background-image: linear-gradient(to bottom, rgba(0, 0, 0, 0.0001) 0, rgba(0, 0, 0, 0.05) 100%);
+    background-repeat: repeat-x;
+    filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='#00000000', endColorstr='#80000000', GradientType=2);
+}
+.footer {
+    background: no-repeat scroll right 50px bottom 80px #333333;
+    color: #FFFFFF;
+    min-height: 200px;
+    position: relative;
+    padding-top: 20px;    
+}
+.footer h1,h2,h3,h4,h5,h6{
+    position: relative;
+}
+.footer ul{
+    list-style: none;
+}
+.footer li a{
+    color :#5E5E5E;    
+}
+.footer li a:hover{
+    font-style:normal;
+    text-decoration: none;
+    color: #fff;
+}
+.footer-end {
+    background-color: #222222;
+    box-shadow: 0 1px 3px #141414 inset;
+    color: #888888;
+    font-size: 9px;
+    line-height: normal;    
+    padding: 15px 0;
+}
